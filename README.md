@@ -1,4 +1,4 @@
-# Project Name : **Random Password Generator** 
+# Project Name : **Word Count** 
 ![badge](https://img.shields.io/badge/iNeuron-LCO-green) ![badge](https://img.shields.io/badge/Hitesh--Choudhary-Full%20Stack%20Javascript%20Course-orange)
 
 This project developed with pure HTML and TailwindCSS mainly focused on Pure Javascript. <br/>
@@ -28,12 +28,11 @@ A word count app which only calculates the number of characters given by the use
 
 ### You can Check it Live on Below Link :
 
-[Live Link !](https://new-random-password-generator.netlify.app/)
+[Live Link !](https://word-counter-app-js.netlify.app/)
 
 ### Demo :
 
-![App Image](https://github.com/anitha-nagadasarink/random-password-generator/blob/Javascript-projects/Image/demo.PNG)
-![Min Value](https://github.com/anitha-nagadasarink/random-password-generator/blob/Javascript-projects/Image/demo-1.PNG)
-![Max Value](https://github.com/anitha-nagadasarink/random-password-generator/blob/Javascript-projects/Image/demo-2.PNG)
+![App Image](https://github.com/anitha-nagadasarink/word-count/blob/Javascript-projects/images/demo.PNG)
+
 
 
