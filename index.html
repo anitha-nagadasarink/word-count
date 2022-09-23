@@ -1,0 +1,42 @@
+<!-- OmSahkthi amma Shivappa
+Om Ganapathi Siddhi Buddhi
+Vishnu Lakshmi
+Brahama saraswathi Dakshina murthy Hayagriva
+Sri venkateshwara Sri Vidya Vijaya Gnana Dhyrya Aurogya Samayaspoorthy Ananda Lakshmi devi -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Count</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <section
+    class="bg-blueLight h-[100vh] text-center py-8 md:p-20  text-white  bg-gradient-to-l from-sky-500 to-indigo-500 font-semibold">
+    <h1 class="md:text-5xl mb-6 uppercase text-lg">Word Count App</h1>
+    <div class="mt-10 flex justify-center align-center flex-col">
+      <h4 class="text-2xl uppercase ">Words</h4>
+      <p class="words-result mt-1 mb-6 text-3xl uppercase">00</p>
+      <textarea id="number" class="w-1/2 md:w-1/3 p-4 m-auto text-black rounded-xl" rows="4" value="jj j"></textarea>
+    </div>
+  </section>
+  <script>
+    // Variable Declarations
+    const textAreaValue = document.getElementById("number");
+    const wordsResult = document.querySelector(".words-result");
+    let words, wordsCount
+
+    textAreaValue.addEventListener("input", function () {
+      words = (textAreaValue.value).split(' ');
+      wordsCount = words.filter(word => word !== '').length;
+      wordsResult.innerHTML = wordsCount;
+    });
+
+  </script>
+</body>
+
+</html>
